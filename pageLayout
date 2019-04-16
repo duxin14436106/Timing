@@ -1,0 +1,29 @@
+[1]、box-sizeing: 
+  （1）box-sizing: content-box;   只content
+   (2) box-sizing: border-box; 包含边 padding border content
+[2]、居中
+      水平居中
+        行内元素: text-align: center
+        块级元素: margin: 0 auto
+        absolute + transform
+        flex + justify-content: center
+
+      垂直居中
+        line-height: height
+        absolute + transform
+        flex + align-items: center
+        table
+        
+      水平垂直居中
+        absolute + transform
+        flex + justify-content + align-items
+[3]、 原型 / 构造函数 / 实例
+      //实例
+      const instance = new Object()；
+      // 原型
+      const prototype = Object.prototype
+          实例.__proto__ === 原型
+
+          原型.constructor === 构造函数
+
+          构造函数.prototype === 原型
